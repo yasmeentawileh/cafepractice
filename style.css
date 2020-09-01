@@ -3,17 +3,17 @@ body{
   padding:0px;
   background-color:#F7F5F2;
 }
+nav{
+  background-color:black;
+  padding:5px;
+}
 ul li{
     display:inline;
   text-align: center;
    color: white;
    margin: 130px;
   }
-   header{
-    background-color: black;
-  height:50px;
-  padding: 5px;
-  }
+
  #thecafe { 
     /* background-position: center; */
     /* height: 400px; */
@@ -25,7 +25,8 @@ ul li{
    color:white;
   font-size: 90px;
   background-repeat: no-repeat;
-  font-family: "Inconsolata", sans-serif;
+
+ 
    }
   #open{
       float: left ;
@@ -45,6 +46,8 @@ ul li{
   }
   h1{
     text-align: center;
+    margin-top: 20px;
+    font-family: "Inconsolata", sans-serif;
   }
   #about{
     margin-top: 20px;
@@ -53,7 +56,11 @@ ul li{
   .clearfix{
     clear: both;
   }
-  p{ 
-  text-align:center;
-}
+ p{
+   line-height: 1.5;
+
+ }
+ #themenu{
+   text-align: center;
+ }
   
