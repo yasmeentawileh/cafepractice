@@ -1,3 +1,8 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color:#F7F5F2;
+}
 ul li{
     display:inline;
   text-align: center;
@@ -9,18 +14,46 @@ ul li{
   height:50px;
   padding: 5px;
   }
- #thecafe {  background-position: center;
+ #thecafe { 
+    /* background-position: center; */
+    /* height: 400px; */
     background-size: cover;
     background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
-    min-height: 75%;
-   margin: 0px;
+    /* min-height: 75%; */
+   /* margin: 0px; */
   padding: 64px ;
    color:white;
-   text-align: center ;
-  font-size: 75px;
+  font-size: 90px;
   background-repeat: no-repeat;
+  font-family: "Inconsolata", sans-serif;
    }
   #open{
-      text-align: left ;
+      float: left ;
       font-size:25px;
+      background-color: black;
   } 
+  #street{
+    /* text-align: right; */
+    font-size: 25px;
+    float: right;
+  }
+  h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline;
+  }
+  h1{
+    text-align: center;
+  }
+  #about{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .clearfix{
+    clear: both;
+  }
+  p{ 
+  text-align:center;
+}
+  
