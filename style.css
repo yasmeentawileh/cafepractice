@@ -1,0 +1,26 @@
+ul li{
+    display:inline;
+  text-align: center;
+   color: white;
+   margin: 130px;
+  }
+   header{
+    background-color: black;
+  height:50px;
+  padding: 5px;
+  }
+ #thecafe {  background-position: center;
+    background-size: cover;
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    min-height: 75%;
+   margin: 0px;
+  padding: 64px ;
+   color:white;
+   text-align: center ;
+  font-size: 75px;
+  background-repeat: no-repeat;
+   }
+  #open{
+      text-align: left ;
+      
+  } 
